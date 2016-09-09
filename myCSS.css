@@ -1,0 +1,9 @@
+.invisible {
+    display: none;
+}
+input:invalid {
+    border: 5px solid red;
+}
+input:invalid + div {
+    display: block;
+}
